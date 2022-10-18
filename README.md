@@ -14,3 +14,5 @@
 >執行AutoIRS.py或AutoMoodle.py
 >
 >將Python主控台最小化
+
+備註: 一旦點名成功程式會自動結束 如需多次點名 請自行修改程式碼
