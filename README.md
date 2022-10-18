@@ -4,9 +4,9 @@
 遊覽器: Google Chrome(縮放比: %100)
 
 安裝程序:
->安裝python3
+>安裝[Python3](https://www.python.org/downloads/)
 >
->執行pipIstall.bat
+>執行[pipInstall.bat](Python-Auto/pipInstall.bat)
 
 用法:
 >開啟點名頁面
