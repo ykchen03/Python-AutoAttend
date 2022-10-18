@@ -9,7 +9,7 @@
 >執行[pipInstall.bat](pipInstall.bat)
 
 用法:
->開啟點名頁面
+>開啟點名頁面(視窗最大化)
 >
 >執行AutoIRS.py或AutoMoodle.py
 >
