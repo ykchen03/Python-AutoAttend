@@ -10,7 +10,7 @@
 
 用法:
 >開啟點名頁面
-
->執行AutoIRS或AutoMoodle
-
+>
+>執行AutoIRS.py或AutoMoodle.py
+>
 >將Python主控台最小化
