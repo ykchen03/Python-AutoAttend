@@ -8,11 +8,12 @@ time.sleep(5)
 print('Start')
 
 while True:
-    cord=pyautogui.locateOnScreen("target.PNG",region=(45,390,110,445),grayscale=True,confidence=0.5)
+    cord=pyautogui.locateOnScreen("target.PNG",region=(0,460,180,570),grayscale=True,confidence=0.5)
 
     if cord!=None:
         print("Found at",time.strftime("%H:%M:%S", time.localtime()))
         pyautogui.click(cord)
+        break
         
     else:
         print("Not Found Next Check in 30 sec")
