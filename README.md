@@ -6,7 +6,7 @@
 安裝程序:
 >安裝[Python3](https://www.python.org/downloads/)
 >
->執行[pipInstall.bat](Python-Auto/pipInstall.bat)
+>執行[pipInstall.bat](pipInstall.bat)
 
 用法:
 >開啟點名頁面
