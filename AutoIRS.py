@@ -33,5 +33,5 @@ while True:
     time.sleep(config.getint('Config','sleep'))
     driver.execute_script("location.reload()")
 
-time.sleep(5)
+
 driver.quit()
