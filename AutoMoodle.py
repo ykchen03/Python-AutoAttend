@@ -29,8 +29,8 @@ driver.implicitly_wait(5)
 #https://moodle.chu.edu.tw/mod/attendance/attendance.php?sessid=1503919&amp;sesskey=yaDkjaHTV3
 while True:
     
-    if driver.find_elements(By.XPATH,"//*[contains(@href,'ssessid')]"):
-        driver.get(driver.find_element(By.XPATH, "//*[contains(@href,'ssessid')]").get_attribute('href'))
+    if driver.find_elements(By.XPATH,"//*[contains(@href,'sessid')]"):
+        driver.get(driver.find_element(By.XPATH, "//*[contains(@href,'sessid')]").get_attribute('href'))
         break
     
     #print('Not Found')
