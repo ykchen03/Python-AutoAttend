@@ -27,6 +27,7 @@ driver.get(driver.find_element(By.XPATH, "//*[contains(@href,'attendance')]").ge
 driver.implicitly_wait(5)
 
 #https://moodle.chu.edu.tw/mod/attendance/attendance.php?sessid=1503919&amp;sesskey=yaDkjaHTV3
+print("Moodle自動點名已啟動 待命中...")
 while True:
     
     if driver.find_elements(By.XPATH,"//*[contains(@href,'sessid')]"):
