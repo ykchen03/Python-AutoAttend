@@ -24,14 +24,14 @@ driver.execute_script(f"irs_currentRollcall({course_id})")
 
 driver.implicitly_wait(5)
 
+print("IRS自動點名已啟動 待命中...")
 while True:
-    if driver.find_elements(By.XPATH,"//*[contains(@text,'開放簽到中')]"):
+    if driver.find_elements(By.XPATH,"//div[@class='text' and text()='開放簽到中']"):
         driver.execute_script(f"makeRollcall({course_id})")
         break
-    
+
     #print("Not Found")
     time.sleep(config.getint('Config','sleep'))
     driver.execute_script("location.reload()")
-
 
 driver.quit()
