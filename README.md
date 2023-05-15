@@ -1,4 +1,4 @@
-# Moodle IRS-自動點名
+# Moodle IRS-無人自動點名
 
 安裝程序:
 >安裝[Python3](https://www.python.org/downloads/)
