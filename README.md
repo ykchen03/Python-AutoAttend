@@ -5,13 +5,14 @@
 >
 >安裝[Google Chrome](https://www.google.com/intl/zh-TW/chrome/)
 >
->安裝Selenium
->```pip install selenium```
+>安裝Selenium, BeautifulSoup4, lxml
+>
+>```
+>pip install selenium
+>pip install beautifulsoup4
+>pip install lxml
+>```
 
 
 用法:
->開啟config.ini輸入學號 密碼 課程代碼
->
->執行Moodlestart.bat / IRSstart.bat
-
-備註: 一旦點名成功程式會自動結束 如需多次點名 請自行修改程式碼
+>直接執行AutoATT_1.0.exe或AutoATT_1.0.py
