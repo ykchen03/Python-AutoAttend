@@ -134,7 +134,7 @@ def login_trigger():
     else:
         login_irs()
 
-    message.config(text="登入中成功!")
+    message.config(text="登入成功!")
 
 config = configparser.ConfigParser()
 config.read('config.ini',encoding='utf-8')
