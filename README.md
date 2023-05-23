@@ -5,12 +5,13 @@
 >
 >安裝[Google Chrome](https://www.google.com/intl/zh-TW/chrome/)
 >
->安裝Selenium, BeautifulSoup4, lxml
+>安裝Selenium, BeautifulSoup4, lxml, webdriver_manager
 >
 >```
 >pip install selenium
 >pip install beautifulsoup4
 >pip install lxml
+>pip install webdriver_manager
 >```
 
 
