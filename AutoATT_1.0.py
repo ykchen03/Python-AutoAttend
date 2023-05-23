@@ -1,6 +1,8 @@
 ﻿from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 import time
 import configparser
 import tkinter.ttk as ttk
@@ -128,7 +130,7 @@ def login_trigger():
         chrome_option.add_argument("--headless")
 
     global driver
-    driver = webdriver.Chrome(options=chrome_option)
+    driver = webdriver.Chrome(options=chrome_option,service=Service(executable_path=ChromeDriverManager().install()))
     if(platform_selected.get()=="CHUMoodle"):
         login_moodle()
     else:
