@@ -16,6 +16,6 @@
 
 
 用法:
->直接執行AutoATT_1.0.exe或AutoATT_1.0.py
+>直接執行AutoATT_1.1.exe或AutoATT_1.1.py
 
 ![image](https://github.com/ykchen03/Python-AutoAttend/assets/112570539/d1e3edcb-1845-495b-916d-5ad492b23da2)
