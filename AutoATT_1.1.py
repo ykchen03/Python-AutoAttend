@@ -130,7 +130,7 @@ def login_trigger():
         chrome_option.add_argument("--headless")
 
     global driver
-    driver = webdriver.Chrome(options=chrome_option,service=Service(executable_path=ChromeDriverManager().install()))
+    driver = webdriver.Chrome(options=chrome_option,service=Service(ChromeDriverManager().install()))
     if(platform_selected.get()=="CHUMoodle"):
         login_moodle()
     else:
