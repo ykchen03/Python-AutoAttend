@@ -13,7 +13,7 @@
 >
 >[Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
 >
->開啟TamperMonkey Editor 將AutoATT-CHUMoodle.js 或 AutoATT-ZuvioIRS.js複製進去(包括註解)
+>開啟TamperMonkey Editor 將AutoATT-CHUMoodle.js 或 AutoATT-ZuvioIRS.js複製進去(包括註解)後儲存
 >
 >開啟Moodle或IRS的點名頁面 腳本會自動啟動(若沒啟動請重新整理)
 
