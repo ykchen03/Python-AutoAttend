@@ -20,7 +20,7 @@
         if(button)
         {
             button.click();
-			flag = true;
+	    flag = true;
             return;
         }
     }
