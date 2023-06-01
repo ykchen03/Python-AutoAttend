@@ -9,8 +9,6 @@
 >
 >[Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 >
->[Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
->
 >[Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
 >
 >開啟TamperMonkey Editor 將AutoATT-CHUMoodle.js 或 AutoATT-ZuvioIRS.js複製進去(包括註解)後儲存
