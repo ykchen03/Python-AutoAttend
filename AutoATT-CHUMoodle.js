@@ -23,7 +23,7 @@
                 console.log(i);
                 window.location.href=i.href;
                 clearInterval(refreshInterval);
-                alert("點名完成");
+                //alert("點名完成");
                 return;
             }
         }
