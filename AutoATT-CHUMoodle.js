@@ -12,7 +12,7 @@
 (function() {
     var flag = false;
     if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
-        console.log("1");
+        //console.log("1");
         var title = document.createElement('h1');
         title.textContent = "自動點名啟動中";
         title.style.color='green';
