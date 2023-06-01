@@ -20,7 +20,7 @@
         {
             button.click();
             clearInterval(refreshInterval);
-            title.textContent = "點名完成";
+            alert("點名完成");
             return;
         }
     });
