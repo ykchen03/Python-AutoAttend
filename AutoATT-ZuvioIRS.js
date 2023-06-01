@@ -12,17 +12,17 @@
 (function() {
 	var flag = false;
 	if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
-	var title = document.getElementsByClassName("text")[0];
-	title.textContent = "自動點名啟動中";
-	title.style.color = "MediumSeaGreen";
-	title.style.fontSize = "30px";
-	var button = document.getElementById("submit-make-rollcall");
-	if(button)
-	{
-	    button.click();
-	    flag = true;
-	    return;
-	}
+		var title = document.getElementsByClassName("text")[0];
+		title.textContent = "自動點名啟動中";
+		title.style.color = "MediumSeaGreen";
+		title.style.fontSize = "30px";
+		var button = document.getElementById("submit-make-rollcall");
+		if(button)
+		{
+		    button.click();
+		    flag = true;
+		    return;
+		}
 	}
 
 	if(!flag)
