@@ -10,7 +10,9 @@
 // ==/UserScript==
 
 (function() {
-    window.addEventListener('load', function() {
+    var flag = false;
+    if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
+        console.log("1");
         var title = document.createElement('h1');
         title.textContent = "自動點名啟動中";
         title.style.color='green';
@@ -22,16 +24,19 @@
             {
                 console.log(i);
                 window.location.href=i.href;
-                clearInterval(refreshInterval);
+                flag = true;
                 //alert("點名完成");
-                return;
+                break;
             }
         }
-    });
+    }
 
-    const refreshInterval = setInterval(function(){
-        location.reload();
-    },15000);
+    if(!flag)
+    {
+        const refreshInterval = setInterval(function(){
+            location.reload();
+        },15000);
+    }
 
     // Your code here...
 })();
