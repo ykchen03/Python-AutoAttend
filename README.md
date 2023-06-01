@@ -1,7 +1,7 @@
 # Moodle IRS-無人自動點名
 
 安裝程序(JavaScript):
->1. 安裝TamperMonkey
+>安裝TamperMonkey
 >
 >[Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
 >
