@@ -10,8 +10,8 @@
 // ==/UserScript==
 
 (function() {
-    var flag = false;
-    if (document.readyState == "complete" || document.readyState == "loaded" || document.readyState == "interactive") {
+	var flag = false;
+    setTimeout(function(){
         //console.log("1");
         var title = document.createElement('h1');
         title.textContent = "自動點名啟動中";
@@ -24,18 +24,17 @@
             {
                 console.log(i);
                 window.location.href=i.href;
-                flag = true;
-                //alert("點名完成");
+                flag=true;
                 break;
             }
         }
-    }
+    },2000);
 
-    if(!flag)
+	if(!flag)
     {
-        const refreshInterval = setInterval(function(){
-            location.reload();
-        },15000);
+		setTimeout(function(){
+			location.reload();
+		},15000);
     }
 
     // Your code here...
