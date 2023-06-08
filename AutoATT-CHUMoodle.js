@@ -6,6 +6,8 @@
 // @author       YK
 // @match        https://moodle.chu.edu.tw/mod/attendance/view.php?id=*
 // @icon         https://moodle.chu.edu.tw/theme/image.php/chu/theme/1685412700/favicon
+// @updateURL    https://raw.githubusercontent.com/ykchen03/Python-AutoAttend/main/AutoATT-CHUMoodle.js
+// @downloadURL  https://raw.githubusercontent.com/ykchen03/Python-AutoAttend/main/AutoATT-CHUMoodle.js
 // @grant        none
 // ==/UserScript==
 
