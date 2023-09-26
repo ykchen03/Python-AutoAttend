@@ -6,25 +6,21 @@
 // @author       YK
 // @match        https://irs.zuvio.com.tw/student5/irs/rollcall/*
 // @icon         https://s3.hicloud.net.tw/zuvio.public/public/system/images/irs_v4/favicon/student5.ico
+// @require      https://code.jquery.com/jquery-3.7.1.min.js
 // @grant        none
 // ==/UserScript==
-
-(function() {
-setTimeout(function(){
-  var title = document.getElementsByClassName("text")[0];
-  title.textContent = "自動點名啟動中";
-  title.style.color = "MediumSeaGreen";
-  title.style.fontSize = "30px";
-  var button = document.getElementById("submit-make-rollcall");
-  if(button)
-  {
-      button.click();
-      return;
-  }
-  },1000);
-
-  setTimeout(function(){
-      location.reload();
-  },15000);
-    // Your code here...
-})();
+/*global $*/
+$().ready(function() {
+	console.log("ready");
+	$("#content .irs-rollcall .text").text("自動點名啟動中").css({
+		"color": "green",
+		"font-weight": "bold",
+		"font-size": "40px"
+	});
+	if ($("#submit-make-rollcall").length > 1) {
+		$("#submit-make-rollcall").get(0).click();
+	}
+	setTimeout(function() {
+		window.location.reload();
+	}, 12000);
+});
