@@ -18,7 +18,7 @@ $().ready(function() {
 		"font-size": "40px"
 	});
 	if ($("#submit-make-rollcall").length > 1) {
-		$("#submit-make-rollcall").get(0).click();
+		new Function($("#submit-make-rollcall").attr("onclick"))();
 	}
 	setTimeout(function() {
 		window.location.reload();
